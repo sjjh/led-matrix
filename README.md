@@ -168,7 +168,7 @@ For automated continuous execution, you can run as a systemd service instead:
 
 ```bash
 # The service runs as system user led_mon (created by the script if needed)
-./build_andOnstall.sh
+./build_and_install.sh
 # manage the service
 systemctl start|stop|status fwledmatrix.service
 # The service config file is at /etc/systemd/system/led_mon.service.
